@@ -1,0 +1,306 @@
+{
+  "version": 4,
+  "terraform_version": "1.5.7",
+  "serial": 6,
+  "lineage": "e1df3273-f0dd-072f-4d4d-b5deaa98ebb4",
+  "outputs": {
+    "cluster_name": {
+      "value": "local-k8s",
+      "type": "string"
+    },
+    "kubeconfig": {
+      "value": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJTWlPNnJkS3JtZ1F3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBek1UZ3dNRE0zTURWYUZ3MHpOakF6TVRVd01EUXlNRFZhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURQdHZacEdVSVZIdDRXdWxrRXc3TE5DbFBHbUl0aW42cmtJWDB4TjVCeWxDTEpKdS9lSkJMOStWZ2YKNWdjRjNRTmJabnBSVW9USy9JWExTeHlXbkM0b3RxcUlJNDFzMU00b1ArOFRLZWkrSlcvOFg1SHViVEJYK3B2SgpYK2M4NXlHZWx2WFl4dXdFNzY0Qy92YytEV0IvRG95bXptQkVVclNWVXlCa1NFWkRnQVBrSnhZYWNrSmdMMjZ2CmtoK3JCa05BVUdGLzA3Zi9sNTFFdEYzN1FPRlBoY0FlZ1ZKWnpub0VrazVmUUk2Z0JhbDFjVlFHYjJsOS9vazAKL2Z1Rm9TR0JEM3ZmYkF2OWt1T2tiMWZMalNCNmd0ck1rRmtla2Z2a3MxUi9hUkt2Y3BiRnRqamtJUXhsM3BOUwpQYklFUm5YMkdMcGZMVUpmNFJvWVIwUnVDZ0NmQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTNTFTRG9qT2JoWnFFNnZZUCthTHc3a3FoaFJEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ0JYZXRmQS9scgorYVpyUHFXUnhhemMrOTYvb3dKandGYnZEQnBtb1RBa3lPaFlQYnRqc081N1BqUGFnR0lUUEk4NEVoTlUvRHkrCnNpNHRTeCtLUWlCcWVGRXV2djJHNjFjZFFvQzRnbGVtVW14MFpyazM2emdMNER6NTJ2VXdNdU00RVNPR3ljVzQKajFEVjlFaCtvNkxMTlIvWnZvMEpiK3FUVmg0aitIcWpucDNZbHIvMlNjbnhsaGxGYzQvYnRBc0ZrdldVSm1nQgp6MnFHK0IwSUE2YTkzYlNmSE5qZko3MCtKRW5vV2UrRkV3Ni9XOHgyanRRbUdsL0JIeEhGcllGNWlDTkMwQjBxCklFRlpGSnVuQ093U3RySFRDalIxdUZ1Z2JEVzRhZ3IzVE5JYkFsU2F0ZWN1dU9UcTFxdWh6L0h2ZHRLYkNYYnEKcmF1aGZUU3BObW1ICi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53270\n  name: kind-local-k8s\ncontexts:\n- context:\n    cluster: kind-local-k8s\n    user: kind-local-k8s\n  name: kind-local-k8s\ncurrent-context: kind-local-k8s\nkind: Config\npreferences: {}\nusers:\n- name: kind-local-k8s\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJWXcwemtHS2lTWTh3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBek1UZ3dNRE0zTURWYUZ3MHlOekF6TVRnd01EUXlNRGxhTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDbWVFY0kKK2RRdTBVVnd4MUVJbXh2aWM0bDNtSFhCZy9WSDVyQlB4Y3YzNkNUNCtwQ29ic2hpdWpvQ0N6OVMvMFo4MUZtUwovRUYySTlMa2xtMCt6Yzk2YVZZeHFHdHRubDlCaTVPTk5aWDdPa09TRmhQWVk0ZTk1SXM2cG9IajNiZ2QzOUVQCmVIajEvWUVSckRyanFpVDBvV0gwdmdYelhRQktpUzBpakFyMnQ1RGhReUpQdjlYaHpGSjlLQVVnVWtLMFlyZnUKNmRhaENJQ1JmaEJuSDczOUtsV0I5elduVFpXQVBWeEtWUkNpZm1yazNiM0w3UHpDK1U4MWhPNjhKMDVRYjA1QQp0cSs5QzFxYzgvckl3czFrd1ltVGgzVEZzSVVYd2RNMXZzUkdYU014bDlMWmRGWDZYTitXNXJ0RDhPYmRrcncxCjBCWERGOWgxL1luM0VRcjlBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkxuVklPaU01dUZtb1RxOQpnLzVvdkR1U3FHRkVNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUNnZmFxaC8wcFhCUjZQR3YrWGJndnlZWTFEClRkOU9HcHhwcXh2blJMQlQ4SHFHbjFYT1NUOFhsMEd2V2d4S0EvWVJLVmc2NnhkOUo4UWpvU0FSWVNSZDRETTUKNjlOaFJtL2hSMENIcEJXNW50d3hnNlB0SEpRdTZtMkZ4YzdSakhSOVJyaUQ2UFNtSXAwdGFOVlNIYkE0Qk9VVAoyQzA0a3l5eUN3amE2bjhXcHhubG03V1FBTTg1Qk1OWCtPWmhNRUhNYlg0c1dJQW1tNksxR2EybHBvTldIcXNiCkNjQUJqUStGYlR6ejRNdlhMTGNtbzhwcVZRMm1SdDNaVmZBMHVqbnJZMzJ5M0Z2Y3U4d054YXg2dlg3ZGpYTWcKck44TXI5WDFnUTB3ZkQybVJKdEtJczVJb1RtNHY2WXVXcm5hUXZaNWswSS9MMDNoY2UrdS9mU3ZkZ0t2Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBcG5oSENQblVMdEZGY01kUkNKc2I0bk9KZDVoMXdZUDFSK2F3VDhYTDkrZ2srUHFRCnFHN0lZcm82QWdzL1V2OUdmTlJaa3Z4QmRpUFM1Slp0UHMzUGVtbFdNYWhyYlo1ZlFZdVRqVFdWK3pwRGtoWVQKMkdPSHZlU0xPcWFCNDkyNEhkL1JEM2g0OWYyQkVhdzY0Nm9rOUtGaDlMNEY4MTBBU29rdElvd0s5cmVRNFVNaQpUNy9WNGN4U2ZTZ0ZJRkpDdEdLMzd1bldvUWlBa1g0UVp4KzkvU3BWZ2ZjMXAwMlZnRDFjU2xVUW9uNXE1TjI5Cnkrejh3dmxQTllUdXZDZE9VRzlPUUxhdnZRdGFuUFA2eU1MTlpNR0prNGQweGJDRkY4SFROYjdFUmwwak1aZlMKMlhSVitsemZsdWE3US9EbTNaSzhOZEFWd3hmWWRmMko5eEVLL1FJREFRQUJBb0lCQUVVUXBiZ05ub0NHQmw5Ugo4a2ExdzQzaURXaDI4blFGQVdDQlR5anBrVVFiSml1K0dRSW9aQzdCd0l0VWkwTXQ4ZHFjWjBWYUx2YUt5bFpZCktwN2gySENhLzAyKzZFTWtiN1RMNmIydU83bHRaTmRaSFlhclZJZnVKKzEvWTJoY2RxUytWUWdzSFZOQmg2a0QKWWJOT3hlSlFpa2wyQlJZQXdid3F5WFVKMFFxbVZwY3lONzJPVWtFbmlZS0ZPdDk3aVZ4M3NjWkdrVTAydUZjSwpXSDlHdi9ZcHAxOHZibVA1UVBVMzJhOHc0Rm1OS05VeGpoMTNObjZOWGdkaXJYeGdMNVJwNEcxOGlQVmQ3MmJXCnhYamFUSnBFNldSYlRDTHVidStycUx6QjY3eFdNZkxiZDFQQU4vNzI5ZjBRTVJGT0Y4NHMvWGQzb0hHUzZUUjQKdTFiV29JRUNnWUVBeFZjQmlpZVdqck9OY3JSZmF2QVp0WHlITkNtRWdYSUhkWEtOcG1IbG1RT1o2VEJkQnFxdQo1bVBGcGJYWWNmNmFDWC9IeHpKa25qaVh3ZThGbjdQNG1TMXgxUlphZjdGemV2M2tWUk40YXo3cnFZcDNKUkFiCjQwSnhrUlU2UkJ6NFdLMnFOc0xLNHJOTGFVUTVzNm9ucmtGRjJaR2QyZUxRMC9BZVZ2NGYvcTBDZ1lFQTEvUW0KclVTWU9wYUgxZjN2WEcvRkUwcDlYRFZsYVh3aUpzM0swR2Uzck9jKzZSVFpBWVJRd1QyUVgyS2VWSjBaVS92NApkbVIwdXNGbnFwR0hyaGpVNTlLVzF1UUFIeFI1Q25RTS9VRWxmK25UenBZaWphMmNKWkh6alZuTEtxdEVtMjNtCjdGVWJvL3NZMzFjVW5XSUVvN3dGckFLTG1xTnhPbXZudi9xWlY1RUNnWUI4RnB2WFBkR0VaZzladzJZRW5ubnMKRHlRTmZ0WGRkOUNNMzcyR2xDU0Z0U2dBNC9KN0VMVHVGbXJnS3BxeUE4RGtuRDhKV1B6QUtTSDBSdEtvZThpawp1VmpNLzBOazdEYUxiajgzNkFoZWw3QWthZmRGalAyY1I5bVZ1MTFxR3pWbXZiMDh0ZnhSMVNCa1R3eGhsMnRnClBaY29tbEpDQWtnQ0hRbFc5bkV6K1FLQmdGdW1yUHVBVHpNZVM4d1FGNVFkZzRCcWJzWEJpNmEzSGk5bHk1dWoKU1JyQ2ticU9OSU1tU3JlWWp6dE1PWElqc21vb1dBeTNHYXRoQmNRb08zTXg2cm53Y0VBSFI5M283RzM1VHNIMAo4aHRWZTZVRHB1cUdNZXpvQW51TkRtS3ZpVkNGMWltYS9UNGRCVE5VVzlWbmtoeURZY3pjejY3emlzeUdtemFvCi9vZGhBb0dBSUZRcElKMTNHc0VhVXBuZnZWTHhYbm9LQjlwb1BGWVZSQVVMbUk5emJEcVkrSWRta3FnT2llb08KUmNwS3R3YTBKRUVXeDNlUGxaSzFYZklKZ1VKd3RFdHdSbmdPSDdlYXh4STBLc1VuZm1KZUhnZS8zTERWcjEzbApzenpaaEZUOUFWUGs1N296aXRDUlZHVmJJY0FJRiszV2NvcjlJN25pUXB4TEJTaUN5aGM9Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "kubeconfig_path": {
+      "value": "/Users/yasinkaragoz/personal/terraform-project/Terraform/projects/01-local-k8s-cluster/local-k8s-config",
+      "type": "string"
+    },
+    "registry_container_name": {
+      "value": "local-registry",
+      "type": "string"
+    },
+    "registry_url": {
+      "value": "localhost:5001",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "docker_container",
+      "name": "registry",
+      "provider": "provider[\"registry.terraform.io/kreuzwerker/docker\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "attach": false,
+            "bridge": "",
+            "capabilities": [],
+            "cgroup_parent": null,
+            "cgroupns_mode": null,
+            "command": [
+              "/etc/docker/registry/config.yml"
+            ],
+            "container_logs": null,
+            "container_read_refresh_timeout_milliseconds": 15000,
+            "cpu_period": null,
+            "cpu_quota": null,
+            "cpu_set": "",
+            "cpu_shares": 0,
+            "cpus": null,
+            "destroy_grace_seconds": null,
+            "devices": [],
+            "dns": null,
+            "dns_opts": null,
+            "dns_search": null,
+            "domainname": "",
+            "entrypoint": [
+              "/entrypoint.sh"
+            ],
+            "env": [],
+            "exit_code": null,
+            "gpus": null,
+            "group_add": null,
+            "healthcheck": null,
+            "host": [],
+            "hostname": "1d1c634038a8",
+            "id": "1d1c634038a8151a5e9545f7235aaa25eb9c2f5cc0a091d76d85c8b16b0c2bca",
+            "image": "sha256:26b2eb03618e749084668eaff68cff8f81dda12d06ac641be7a6398b82a6f25b",
+            "init": false,
+            "ipc_mode": "private",
+            "labels": [],
+            "log_driver": "json-file",
+            "log_opts": null,
+            "logs": false,
+            "max_retry_count": 0,
+            "memory": 0,
+            "memory_swap": 0,
+            "mounts": [],
+            "must_run": true,
+            "name": "local-registry",
+            "network_data": [
+              {
+                "gateway": "172.17.0.1",
+                "global_ipv6_address": "",
+                "global_ipv6_prefix_length": 0,
+                "ip_address": "172.17.0.2",
+                "ip_prefix_length": 16,
+                "ipv6_gateway": "",
+                "mac_address": "02:42:ac:11:00:02",
+                "network_name": "bridge"
+              }
+            ],
+            "network_mode": "bridge",
+            "networks_advanced": [],
+            "pid_mode": "",
+            "ports": [
+              {
+                "external": 5001,
+                "internal": 5000,
+                "ip": "0.0.0.0",
+                "protocol": "tcp"
+              }
+            ],
+            "privileged": false,
+            "publish_all_ports": false,
+            "read_only": false,
+            "remove_volumes": true,
+            "restart": "always",
+            "rm": false,
+            "runtime": "runc",
+            "security_opts": [],
+            "shm_size": 64,
+            "start": true,
+            "stdin_open": false,
+            "stop_signal": "",
+            "stop_timeout": 0,
+            "storage_opts": null,
+            "sysctls": null,
+            "tmpfs": null,
+            "tty": false,
+            "ulimit": [],
+            "upload": [],
+            "user": "",
+            "userns_mode": "",
+            "volumes": [],
+            "wait": false,
+            "wait_timeout": 60,
+            "working_dir": "/"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjIifQ==",
+          "dependencies": [
+            "docker_image.registry"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "docker_image",
+      "name": "registry",
+      "provider": "provider[\"registry.terraform.io/kreuzwerker/docker\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "build": [],
+            "force_remove": null,
+            "id": "sha256:26b2eb03618e749084668eaff68cff8f81dda12d06ac641be7a6398b82a6f25bregistry:2",
+            "image_id": "sha256:26b2eb03618e749084668eaff68cff8f81dda12d06ac641be7a6398b82a6f25b",
+            "keep_locally": null,
+            "name": "registry:2",
+            "platform": null,
+            "pull_triggers": null,
+            "repo_digest": "registry@sha256:a3d8aaa63ed8681a604f1dea0aa03f100d5895b6a58ace528858a7b332415373",
+            "timeouts": null,
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kind_cluster",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/tehcyx/kind\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "client_certificate": "-----BEGIN CERTIFICATE-----\nMIIDKTCCAhGgAwIBAgIIYw0zkGKiSY8wDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjAzMTgwMDM3MDVaFw0yNzAzMTgwMDQyMDlaMDwx\nHzAdBgNVBAoTFmt1YmVhZG06Y2x1c3Rlci1hZG1pbnMxGTAXBgNVBAMTEGt1YmVy\nbmV0ZXMtYWRtaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmeEcI\n+dQu0UVwx1EImxvic4l3mHXBg/VH5rBPxcv36CT4+pCobshiujoCCz9S/0Z81FmS\n/EF2I9Lklm0+zc96aVYxqGttnl9Bi5ONNZX7OkOSFhPYY4e95Is6poHj3bgd39EP\neHj1/YERrDrjqiT0oWH0vgXzXQBKiS0ijAr2t5DhQyJPv9XhzFJ9KAUgUkK0Yrfu\n6dahCICRfhBnH739KlWB9zWnTZWAPVxKVRCifmrk3b3L7PzC+U81hO68J05Qb05A\ntq+9C1qc8/rIws1kwYmTh3TFsIUXwdM1vsRGXSMxl9LZdFX6XN+W5rtD8Obdkrw1\n0BXDF9h1/Yn3EQr9AgMBAAGjVjBUMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAK\nBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFLnVIOiM5uFmoTq9\ng/5ovDuSqGFEMA0GCSqGSIb3DQEBCwUAA4IBAQCgfaqh/0pXBR6PGv+XbgvyYY1D\nTd9OGpxpqxvnRLBT8HqGn1XOST8Xl0GvWgxKA/YRKVg66xd9J8QjoSARYSRd4DM5\n69NhRm/hR0CHpBW5ntwxg6PtHJQu6m2Fxc7RjHR9RriD6PSmIp0taNVSHbA4BOUT\n2C04kyyyCwja6n8Wpxnlm7WQAM85BMNX+OZhMEHMbX4sWIAmm6K1Ga2lpoNWHqsb\nCcABjQ+FbTzz4MvXLLcmo8pqVQ2mRt3ZVfA0ujnrY32y3Fvcu8wNxax6vX7djXMg\nrN8Mr9X1gQ0wfD2mRJtKIs5IoTm4v6YuWrnaQvZ5k0I/L03hce+u/fSvdgKv\n-----END CERTIFICATE-----\n",
+            "client_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQEApnhHCPnULtFFcMdRCJsb4nOJd5h1wYP1R+awT8XL9+gk+PqQ\nqG7IYro6Ags/Uv9GfNRZkvxBdiPS5JZtPs3PemlWMahrbZ5fQYuTjTWV+zpDkhYT\n2GOHveSLOqaB4924Hd/RD3h49f2BEaw646ok9KFh9L4F810ASoktIowK9reQ4UMi\nT7/V4cxSfSgFIFJCtGK37unWoQiAkX4QZx+9/SpVgfc1p02VgD1cSlUQon5q5N29\ny+z8wvlPNYTuvCdOUG9OQLavvQtanPP6yMLNZMGJk4d0xbCFF8HTNb7ERl0jMZfS\n2XRV+lzflua7Q/Dm3ZK8NdAVwxfYdf2J9xEK/QIDAQABAoIBAEUQpbgNnoCGBl9R\n8ka1w43iDWh28nQFAWCBTyjpkUQbJiu+GQIoZC7BwItUi0Mt8dqcZ0VaLvaKylZY\nKp7h2HCa/02+6EMkb7TL6b2uO7ltZNdZHYarVIfuJ+1/Y2hcdqS+VQgsHVNBh6kD\nYbNOxeJQikl2BRYAwbwqyXUJ0QqmVpcyN72OUkEniYKFOt97iVx3scZGkU02uFcK\nWH9Gv/Ypp18vbmP5QPU32a8w4FmNKNUxjh13Nn6NXgdirXxgL5Rp4G18iPVd72bW\nxXjaTJpE6WRbTCLubu+rqLzB67xWMfLbd1PAN/729f0QMRFOF84s/Xd3oHGS6TR4\nu1bWoIECgYEAxVcBiieWjrONcrRfavAZtXyHNCmEgXIHdXKNpmHlmQOZ6TBdBqqu\n5mPFpbXYcf6aCX/HxzJknjiXwe8Fn7P4mS1x1RZaf7Fzev3kVRN4az7rqYp3JRAb\n40JxkRU6RBz4WK2qNsLK4rNLaUQ5s6onrkFF2ZGd2eLQ0/AeVv4f/q0CgYEA1/Qm\nrUSYOpaH1f3vXG/FE0p9XDVlaXwiJs3K0Ge3rOc+6RTZAYRQwT2QX2KeVJ0ZU/v4\ndmR0usFnqpGHrhjU59KW1uQAHxR5CnQM/UElf+nTzpYija2cJZHzjVnLKqtEm23m\n7FUbo/sY31cUnWIEo7wFrAKLmqNxOmvnv/qZV5ECgYB8FpvXPdGEZg9Zw2YEnnns\nDyQNftXdd9CM372GlCSFtSgA4/J7ELTuFmrgKpqyA8DknD8JWPzAKSH0RtKoe8ik\nuVjM/0Nk7DaLbj836Ahel7AkafdFjP2cR9mVu11qGzVmvb08tfxR1SBkTwxhl2tg\nPZcomlJCAkgCHQlW9nEz+QKBgFumrPuATzMeS8wQF5Qdg4BqbsXBi6a3Hi9ly5uj\nSRrCkbqONIMmSreYjztMOXIjsmooWAy3GathBcQoO3Mx6rnwcEAHR93o7G35TsH0\n8htVe6UDpuqGMezoAnuNDmKviVCF1ima/T4dBTNUW9VnkhyDYczcz67zisyGmzao\n/odhAoGAIFQpIJ13GsEaUpnfvVLxXnoKB9poPFYVRAULmI9zbDqY+IdmkqgOieoO\nRcpKtwa0JEEWx3ePlZK1XfIJgUJwtEtwRngOH7eaxxI0KsUnfmJeHge/3LDVr13l\nszzZhFT9AVPk57ozitCRVGVbIcAIF+3Wcor9I7niQpxLBSiCyhc=\n-----END RSA PRIVATE KEY-----\n",
+            "cluster_ca_certificate": "-----BEGIN CERTIFICATE-----\nMIIDBTCCAe2gAwIBAgIIMiO6rdKrmgQwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjAzMTgwMDM3MDVaFw0zNjAzMTUwMDQyMDVaMBUx\nEzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQDPtvZpGUIVHt4WulkEw7LNClPGmItin6rkIX0xN5BylCLJJu/eJBL9+Vgf\n5gcF3QNbZnpRUoTK/IXLSxyWnC4otqqII41s1M4oP+8TKei+JW/8X5HubTBX+pvJ\nX+c85yGelvXYxuwE764C/vc+DWB/DoymzmBEUrSVUyBkSEZDgAPkJxYackJgL26v\nkh+rBkNAUGF/07f/l51EtF37QOFPhcAegVJZznoEkk5fQI6gBal1cVQGb2l9/ok0\n/fuFoSGBD3vfbAv9kuOkb1fLjSB6gtrMkFkekfvks1R/aRKvcpbFtjjkIQxl3pNS\nPbIERnX2GLpfLUJf4RoYR0RuCgCfAgMBAAGjWTBXMA4GA1UdDwEB/wQEAwICpDAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBS51SDojObhZqE6vYP+aLw7kqhhRDAV\nBgNVHREEDjAMggprdWJlcm5ldGVzMA0GCSqGSIb3DQEBCwUAA4IBAQCBXetfA/lr\n+aZrPqWRxazc+96/owJjwFbvDBpmoTAkyOhYPbtjsO57PjPagGITPI84EhNU/Dy+\nsi4tSx+KQiBqeFEuvv2G61cdQoC4glemUmx0Zrk36zgL4Dz52vUwMuM4ESOGycW4\nj1DV9Eh+o6LLNR/Zvo0Jb+qTVh4j+Hqjnp3Ylr/2ScnxlhlFc4/btAsFkvWUJmgB\nz2qG+B0IA6a93bSfHNjfJ70+JEnoWe+FEw6/W8x2jtQmGl/BHxHFrYF5iCNC0B0q\nIEFZFJunCOwStrHTCjR1uFugbDW4agr3TNIbAlSatecuuOTq1quhz/HvdtKbCXbq\nrauhfTSpNmmH\n-----END CERTIFICATE-----\n",
+            "completed": true,
+            "endpoint": "https://127.0.0.1:53270",
+            "id": "local-k8s-kindest/node:v1.29.2",
+            "kind_config": [
+              {
+                "api_version": "kind.x-k8s.io/v1alpha4",
+                "containerd_config_patches": [
+                  "[plugins.\"io.containerd.grpc.v1.cri\".registry.mirrors.\"localhost:5001\"]\n  endpoint = [\"http://local-registry:5000\"]\n"
+                ],
+                "feature_gates": null,
+                "kind": "Cluster",
+                "networking": [],
+                "node": [
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [
+                      {
+                        "container_port": 80,
+                        "host_port": 80,
+                        "listen_address": "",
+                        "protocol": "TCP"
+                      },
+                      {
+                        "container_port": 443,
+                        "host_port": 443,
+                        "listen_address": "",
+                        "protocol": "TCP"
+                      }
+                    ],
+                    "image": "",
+                    "kubeadm_config_patches": [
+                      "kind: InitConfiguration\nnodeRegistration:\n  kubeletExtraArgs:\n    node-labels: \"ingress-ready=true\"\n"
+                    ],
+                    "labels": null,
+                    "role": "control-plane"
+                  },
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": null,
+                    "labels": null,
+                    "role": "worker"
+                  },
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [],
+                    "image": "",
+                    "kubeadm_config_patches": null,
+                    "labels": null,
+                    "role": "worker"
+                  }
+                ],
+                "runtime_config": null
+              }
+            ],
+            "kubeconfig": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJTWlPNnJkS3JtZ1F3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBek1UZ3dNRE0zTURWYUZ3MHpOakF6TVRVd01EUXlNRFZhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURQdHZacEdVSVZIdDRXdWxrRXc3TE5DbFBHbUl0aW42cmtJWDB4TjVCeWxDTEpKdS9lSkJMOStWZ2YKNWdjRjNRTmJabnBSVW9USy9JWExTeHlXbkM0b3RxcUlJNDFzMU00b1ArOFRLZWkrSlcvOFg1SHViVEJYK3B2SgpYK2M4NXlHZWx2WFl4dXdFNzY0Qy92YytEV0IvRG95bXptQkVVclNWVXlCa1NFWkRnQVBrSnhZYWNrSmdMMjZ2CmtoK3JCa05BVUdGLzA3Zi9sNTFFdEYzN1FPRlBoY0FlZ1ZKWnpub0VrazVmUUk2Z0JhbDFjVlFHYjJsOS9vazAKL2Z1Rm9TR0JEM3ZmYkF2OWt1T2tiMWZMalNCNmd0ck1rRmtla2Z2a3MxUi9hUkt2Y3BiRnRqamtJUXhsM3BOUwpQYklFUm5YMkdMcGZMVUpmNFJvWVIwUnVDZ0NmQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTNTFTRG9qT2JoWnFFNnZZUCthTHc3a3FoaFJEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ0JYZXRmQS9scgorYVpyUHFXUnhhemMrOTYvb3dKandGYnZEQnBtb1RBa3lPaFlQYnRqc081N1BqUGFnR0lUUEk4NEVoTlUvRHkrCnNpNHRTeCtLUWlCcWVGRXV2djJHNjFjZFFvQzRnbGVtVW14MFpyazM2emdMNER6NTJ2VXdNdU00RVNPR3ljVzQKajFEVjlFaCtvNkxMTlIvWnZvMEpiK3FUVmg0aitIcWpucDNZbHIvMlNjbnhsaGxGYzQvYnRBc0ZrdldVSm1nQgp6MnFHK0IwSUE2YTkzYlNmSE5qZko3MCtKRW5vV2UrRkV3Ni9XOHgyanRRbUdsL0JIeEhGcllGNWlDTkMwQjBxCklFRlpGSnVuQ093U3RySFRDalIxdUZ1Z2JEVzRhZ3IzVE5JYkFsU2F0ZWN1dU9UcTFxdWh6L0h2ZHRLYkNYYnEKcmF1aGZUU3BObW1ICi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:53270\n  name: kind-local-k8s\ncontexts:\n- context:\n    cluster: kind-local-k8s\n    user: kind-local-k8s\n  name: kind-local-k8s\ncurrent-context: kind-local-k8s\nkind: Config\npreferences: {}\nusers:\n- name: kind-local-k8s\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJWXcwemtHS2lTWTh3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBek1UZ3dNRE0zTURWYUZ3MHlOekF6TVRnd01EUXlNRGxhTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFDbWVFY0kKK2RRdTBVVnd4MUVJbXh2aWM0bDNtSFhCZy9WSDVyQlB4Y3YzNkNUNCtwQ29ic2hpdWpvQ0N6OVMvMFo4MUZtUwovRUYySTlMa2xtMCt6Yzk2YVZZeHFHdHRubDlCaTVPTk5aWDdPa09TRmhQWVk0ZTk1SXM2cG9IajNiZ2QzOUVQCmVIajEvWUVSckRyanFpVDBvV0gwdmdYelhRQktpUzBpakFyMnQ1RGhReUpQdjlYaHpGSjlLQVVnVWtLMFlyZnUKNmRhaENJQ1JmaEJuSDczOUtsV0I5elduVFpXQVBWeEtWUkNpZm1yazNiM0w3UHpDK1U4MWhPNjhKMDVRYjA1QQp0cSs5QzFxYzgvckl3czFrd1ltVGgzVEZzSVVYd2RNMXZzUkdYU014bDlMWmRGWDZYTitXNXJ0RDhPYmRrcncxCjBCWERGOWgxL1luM0VRcjlBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRkxuVklPaU01dUZtb1RxOQpnLzVvdkR1U3FHRkVNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUNnZmFxaC8wcFhCUjZQR3YrWGJndnlZWTFEClRkOU9HcHhwcXh2blJMQlQ4SHFHbjFYT1NUOFhsMEd2V2d4S0EvWVJLVmc2NnhkOUo4UWpvU0FSWVNSZDRETTUKNjlOaFJtL2hSMENIcEJXNW50d3hnNlB0SEpRdTZtMkZ4YzdSakhSOVJyaUQ2UFNtSXAwdGFOVlNIYkE0Qk9VVAoyQzA0a3l5eUN3amE2bjhXcHhubG03V1FBTTg1Qk1OWCtPWmhNRUhNYlg0c1dJQW1tNksxR2EybHBvTldIcXNiCkNjQUJqUStGYlR6ejRNdlhMTGNtbzhwcVZRMm1SdDNaVmZBMHVqbnJZMzJ5M0Z2Y3U4d054YXg2dlg3ZGpYTWcKck44TXI5WDFnUTB3ZkQybVJKdEtJczVJb1RtNHY2WXVXcm5hUXZaNWswSS9MMDNoY2UrdS9mU3ZkZ0t2Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBcG5oSENQblVMdEZGY01kUkNKc2I0bk9KZDVoMXdZUDFSK2F3VDhYTDkrZ2srUHFRCnFHN0lZcm82QWdzL1V2OUdmTlJaa3Z4QmRpUFM1Slp0UHMzUGVtbFdNYWhyYlo1ZlFZdVRqVFdWK3pwRGtoWVQKMkdPSHZlU0xPcWFCNDkyNEhkL1JEM2g0OWYyQkVhdzY0Nm9rOUtGaDlMNEY4MTBBU29rdElvd0s5cmVRNFVNaQpUNy9WNGN4U2ZTZ0ZJRkpDdEdLMzd1bldvUWlBa1g0UVp4KzkvU3BWZ2ZjMXAwMlZnRDFjU2xVUW9uNXE1TjI5Cnkrejh3dmxQTllUdXZDZE9VRzlPUUxhdnZRdGFuUFA2eU1MTlpNR0prNGQweGJDRkY4SFROYjdFUmwwak1aZlMKMlhSVitsemZsdWE3US9EbTNaSzhOZEFWd3hmWWRmMko5eEVLL1FJREFRQUJBb0lCQUVVUXBiZ05ub0NHQmw5Ugo4a2ExdzQzaURXaDI4blFGQVdDQlR5anBrVVFiSml1K0dRSW9aQzdCd0l0VWkwTXQ4ZHFjWjBWYUx2YUt5bFpZCktwN2gySENhLzAyKzZFTWtiN1RMNmIydU83bHRaTmRaSFlhclZJZnVKKzEvWTJoY2RxUytWUWdzSFZOQmg2a0QKWWJOT3hlSlFpa2wyQlJZQXdid3F5WFVKMFFxbVZwY3lONzJPVWtFbmlZS0ZPdDk3aVZ4M3NjWkdrVTAydUZjSwpXSDlHdi9ZcHAxOHZibVA1UVBVMzJhOHc0Rm1OS05VeGpoMTNObjZOWGdkaXJYeGdMNVJwNEcxOGlQVmQ3MmJXCnhYamFUSnBFNldSYlRDTHVidStycUx6QjY3eFdNZkxiZDFQQU4vNzI5ZjBRTVJGT0Y4NHMvWGQzb0hHUzZUUjQKdTFiV29JRUNnWUVBeFZjQmlpZVdqck9OY3JSZmF2QVp0WHlITkNtRWdYSUhkWEtOcG1IbG1RT1o2VEJkQnFxdQo1bVBGcGJYWWNmNmFDWC9IeHpKa25qaVh3ZThGbjdQNG1TMXgxUlphZjdGemV2M2tWUk40YXo3cnFZcDNKUkFiCjQwSnhrUlU2UkJ6NFdLMnFOc0xLNHJOTGFVUTVzNm9ucmtGRjJaR2QyZUxRMC9BZVZ2NGYvcTBDZ1lFQTEvUW0KclVTWU9wYUgxZjN2WEcvRkUwcDlYRFZsYVh3aUpzM0swR2Uzck9jKzZSVFpBWVJRd1QyUVgyS2VWSjBaVS92NApkbVIwdXNGbnFwR0hyaGpVNTlLVzF1UUFIeFI1Q25RTS9VRWxmK25UenBZaWphMmNKWkh6alZuTEtxdEVtMjNtCjdGVWJvL3NZMzFjVW5XSUVvN3dGckFLTG1xTnhPbXZudi9xWlY1RUNnWUI4RnB2WFBkR0VaZzladzJZRW5ubnMKRHlRTmZ0WGRkOUNNMzcyR2xDU0Z0U2dBNC9KN0VMVHVGbXJnS3BxeUE4RGtuRDhKV1B6QUtTSDBSdEtvZThpawp1VmpNLzBOazdEYUxiajgzNkFoZWw3QWthZmRGalAyY1I5bVZ1MTFxR3pWbXZiMDh0ZnhSMVNCa1R3eGhsMnRnClBaY29tbEpDQWtnQ0hRbFc5bkV6K1FLQmdGdW1yUHVBVHpNZVM4d1FGNVFkZzRCcWJzWEJpNmEzSGk5bHk1dWoKU1JyQ2ticU9OSU1tU3JlWWp6dE1PWElqc21vb1dBeTNHYXRoQmNRb08zTXg2cm53Y0VBSFI5M283RzM1VHNIMAo4aHRWZTZVRHB1cUdNZXpvQW51TkRtS3ZpVkNGMWltYS9UNGRCVE5VVzlWbmtoeURZY3pjejY3emlzeUdtemFvCi9vZGhBb0dBSUZRcElKMTNHc0VhVXBuZnZWTHhYbm9LQjlwb1BGWVZSQVVMbUk5emJEcVkrSWRta3FnT2llb08KUmNwS3R3YTBKRUVXeDNlUGxaSzFYZklKZ1VKd3RFdHdSbmdPSDdlYXh4STBLc1VuZm1KZUhnZS8zTERWcjEzbApzenpaaEZUOUFWUGs1N296aXRDUlZHVmJJY0FJRiszV2NvcjlJN25pUXB4TEJTaUN5aGM9Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+            "kubeconfig_path": "/Users/yasinkaragoz/personal/terraform-project/Terraform/projects/01-local-k8s-cluster/local-k8s-config",
+            "name": "local-k8s",
+            "node_image": "kindest/node:v1.29.2",
+            "timeouts": null,
+            "wait_for_ready": true
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjMwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubernetes_config_map",
+      "name": "local_registry_hosting",
+      "provider": "provider[\"registry.terraform.io/hashicorp/kubernetes\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "binary_data": null,
+            "data": {
+              "localRegistryHosting.v1": "host: \"localhost:5001\"\nhelp: \"https://kind.sigs.k8s.io/docs/user/local-registry/\"\n"
+            },
+            "id": "kube-public/local-registry-hosting",
+            "immutable": false,
+            "metadata": [
+              {
+                "annotations": null,
+                "generate_name": "",
+                "generation": 0,
+                "labels": null,
+                "name": "local-registry-hosting",
+                "namespace": "kube-public",
+                "resource_version": "554",
+                "uid": "bfd0c701-e2e8-4902-8b4c-c25dbcc746bd"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "kind_cluster.this"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "registry_kind_network",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "6627888794930062984",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "docker_container.registry",
+            "docker_image.registry",
+            "kind_cluster.this"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
