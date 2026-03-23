@@ -1,0 +1,40 @@
+# Copy this file to terraform.tfvars and fill in your values
+# cp terraform.tfvars.example terraform.tfvars
+
+project_id   = "your-gcp-project-id"
+region       = "us-central1"
+cluster_name = "my-gke-cluster"
+
+# Networking
+vpc_name      = "gke-vpc"
+subnet_name   = "gke-subnet"
+subnet_cidr   = "10.0.0.0/20"
+pods_cidr     = "10.48.0.0/14"
+services_cidr = "10.52.0.0/20"
+master_cidr   = "172.16.0.0/28"
+
+# Restrict this to your office/VPN IP in production
+authorized_networks = [
+  {
+    cidr_block   = "203.0.113.0/24"
+    display_name = "office-vpn"
+  }
+]
+
+# System node pool (for kube-system workloads)
+system_pool_machine_type = "e2-medium"
+system_pool_min_nodes    = 1
+system_pool_max_nodes    = 3
+system_pool_disk_size_gb = 50
+
+# Workload node pool (for your applications)
+workload_pool_machine_type = "e2-standard-4"
+workload_pool_min_nodes    = 1
+workload_pool_max_nodes    = 5
+workload_pool_disk_size_gb = 100
+
+labels = {
+  environment = "dev"
+  managed-by  = "terraform"
+  team        = "platform"
+}
